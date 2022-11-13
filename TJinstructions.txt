@@ -1,0 +1,6 @@
+-go to the raw logger activity here:
+https://connect.garmin.com/modern/activity/9756086483
+-Download the .fit file
+-Convert it to .csv:
+~/Programs/fitSDK/java$ java -jar ./FitCSVTool.jar -b 9756086483_ACTIVITY.fit output.csv
+-every second there are 25 accel x,y,z

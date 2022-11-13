@@ -227,7 +227,7 @@ class RL_App extends App.AppBase {
 
   function initActivity() as Void {
     if($.RL_oActivitySession == null) {
-      var oActivitySession = ActivityRecording.createSession({ :name => "RawLogger", :sport => ActivityRecording.SPORT_GENERIC, :subSport => ActivityRecording.SUB_SPORT_GENERIC });
+      var oActivitySession = ActivityRecording.createSession({ :name => "RawLogger", :sport => ActivityRecording.SPORT_CROSS_COUNTRY_SKIING, :subSport => ActivityRecording.SUB_SPORT_GENERIC });
       var iFitFields = 16;  // ... it would seem ConnectIQ allows only 16 contributed FIT fields (undocumented)
       var iFitBytes = 256;  // ... FIT message can be no longer than 256 bytes
       var bHighDefListener_Acceleration = false;
